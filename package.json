@@ -1,0 +1,50 @@
+{
+  "name": "cl-shoping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "publish": "gulp publish",
+    "deploy": "gulp deploy"
+  },
+  "author": "TDc",
+  "overrides": {
+    "graceful-fs": "^4.2.9"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.9.11",
+    "browserify": "^17.0.0",
+    "cssnano": "^5.1.12",
+    "del": "^0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-base64": "^0.1.3",
+    "gulp-changed": "^3.2.0",
+    "gulp-express": "^0.3.5",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-shell": "^0.8.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-template-html": "^0.2.2",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
